@@ -1,9 +1,13 @@
 ## A simple exercise of FIZZ BUZZ with Jest test
 
-**Tools in this project**
+**Init the project**
 
--React
--Styled-Components
--Sass
--Webpack
--React animations
+-npm install
+
+**Tools used in this project:**
+
+- React
+- Styled-Components
+- Sass
+- Webpack
+- React animations
