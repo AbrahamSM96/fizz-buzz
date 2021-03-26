@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+.itemFizzBuzz {
+  display: grid;
+  padding-top: 15px;
+  color: $color-accent;
+  width: 70%;
+  margin: 0 auto;
+  grid-template-columns: repeat(6, minmax(auto, auto));
+}
+
+.itemFizzBuzz__li {
+  margin: $margin-li;
+  position: $position-li;
+  font-size: $fsize-li;
+  text-align: center;
+}
+
+.colorFizz {
+  color: purple;
+}
+.colorBuzz {
+  color: aqua;
+}
+.colorFizzBuzz {
+  color: $color-background-input;
+}
+.colorDefault {
+  color: $color-accent;
+}
+
+@media (max-width: 720px) {
+  .itemFizzBuzz {
+    grid-template-columns: repeat(4, minmax(30px, auto));
+  }
+}
+@media (max-width: 480px) {
+  .itemFizzBuzz {
+    grid-template-columns: repeat(3, minmax(30px, auto));
+  }
+}
+@media (max-width: 330px) {
+  .itemFizzBuzz {
+    grid-template-columns: repeat(2, minmax(30px, auto));
+  }
+}

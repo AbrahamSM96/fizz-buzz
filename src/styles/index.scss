@@ -1,0 +1,18 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  // background-image: url('https://lh3.googleusercontent.com/-JHpoxLxzFuc/WsuVR2RGKAI/AAAAAAABQtY/sn9opSiwR8cb8zWFG9R2ALa6y5Fk8Jo7QCHMYBhgL/w9999/closeup.gif');
+  background-color: #000;
+}

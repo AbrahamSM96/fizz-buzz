@@ -9,23 +9,15 @@ function fizzbuzz(num) {
   }
 
   if (divisible(num, 3) && divisible(num, 5)) {
-    return 'fizzbuzz'
+    return 'FizzBuzz'
   }
   if (divisible(num, 3)) {
-    return 'fizz'
+    return 'Fizz'
   }
   if (divisible(num, 5)) {
-    return 'buzz'
+    return 'Buzz'
   }
   return num
 }
-
-function print(num) {
-  for (i = 0; i <= num; i++) {
-    console.log(`${i}: ${fizzbuzz(i)}`)
-  }
-}
-
-print(16)
 
 module.exports = fizzbuzz
