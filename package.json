@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/AbrahamSM96/fizz-buzz",
   "name": "fizz-buzz",
   "version": "1.0.0",
   "description": "A simple exercise fizz-buzz with jest test",
@@ -6,6 +7,7 @@
   "scripts": {
     "start": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.js",
+    "deploy": "gh-pages -d dist",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
@@ -22,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/AbrahamSM96/fizz-buzz/issues"
   },
-  "homepage": "https://github.com/AbrahamSM96/fizz-buzz#readme",
   "dependencies": {
     "react": "^17.0.1",
     "react-animations": "^1.0.0",
@@ -30,7 +31,6 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "jest": "^26.6.3",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.13",
@@ -38,8 +38,10 @@
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.1.3",
     "css-minimizer-webpack-plugin": "^1.3.0",
+    "gh-pages": "^3.1.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
     "mini-css-extract-plugin": "^1.3.9",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",

@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    filename: 'bundle.js',
+    filename: 'js/[name].[contenthash].js',
     assetModuleFilename: '[contenthash][ext][query]'
   },
   mode: 'production',
